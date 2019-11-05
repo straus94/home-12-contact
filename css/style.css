@@ -57,9 +57,8 @@ h1, h2 {
 }
 
 .mainer {
-    max-width: 1200px;
+    width: 1200px;
     margin: 0 auto;
-    padding: 15px;
 }
 
 .header {
@@ -142,4 +141,29 @@ h1, h2 {
 .info__item {
     line-height: 20px;
     margin: 0 0 20px 0;
+}
+
+.footer {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #282828;
+    align-items: center;
+    margin: 100px 0 0 0;
+    /* width: 1200px; */
+}
+
+.footer__company {
+    font-size: 16px;
+    font-weight: 300;
+    color: #b9b9b9;
+}
+
+.footer__logo {
+    cursor: pointer;
+}
+
+.footer__love {
+    font-weight: bold;
+    color: #ff2b58;
 }

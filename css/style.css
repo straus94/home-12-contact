@@ -66,15 +66,13 @@ h1, h2 {
     margin: 0 0 45px 0;
 }
 
-.aa {
-    font-size: 90px;
-}
 .header__head {
     font-size: 90px;
     font-weight: bold;
     color: #262626;
-    margin: 0 0 40px 0;
+    margin: 0 40px ;
     text-align: center;
+    /* margin: 0 auto; */
 }
 
 .header__dec {
@@ -82,14 +80,14 @@ h1, h2 {
     font-size: 17px;
     color: #262626;
     text-align: center;
-    margin: 0 auto;
-    width: 350px;
+    /* margin: 0 auto; */
+    /* width: 350px; */
 }
 
 .flex-wrapper {
     display: flex;
-    justify-content: center;
-    /* padding: 0 85px; */
+    /* justify-content: space-around; */
+    padding: 0 20px;
 }
 
 .form {
@@ -142,6 +140,6 @@ h1, h2 {
 }
 
 .info__item {
-    /* line-height: 22px; */
+    line-height: 20px;
     margin: 0 0 20px 0;
 }
